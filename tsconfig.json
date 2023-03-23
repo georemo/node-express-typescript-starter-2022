@@ -6,9 +6,10 @@
     "outDir": "./dist",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "experimentalDecorators": true, // allow decorators...also typeorm requirement
+    "emitDecoratorMetadata": true, // decorators metadata
   },
   "files": [
     "src/index.ts"
